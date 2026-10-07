@@ -1,0 +1,23 @@
+# =============================================================================
+# .streamlit/config.toml — Configuration du thème Streamlit
+# =============================================================================
+
+[theme]
+base            = "light"
+primaryColor    = "#6a994e"
+backgroundColor = "#f5f1e6"
+secondaryBackgroundColor = "#f5e9c4"
+textColor       = "#2f2a23"
+font            = "sans serif"
+
+[server]
+headless        = true
+enableCORS      = false
+enableXsrfProtection = true
+maxUploadSize   = 50
+
+[browser]
+gatherUsageStats = false
+
+[runner]
+fastReruns = true
